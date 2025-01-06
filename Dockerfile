@@ -1,4 +1,4 @@
-FROM ubuntu:24
+FROM ubuntu:24.04
 
 RUN apt-get update && apt-get upgrade -y && \
     apt-get install -y make git zlib1g-dev libssl-dev gperf cmake clang-18 libc++-18-dev libc++abi-18-dev
