@@ -51,3 +51,7 @@ steps:
 
 images:
   - europe-docker.pkg.dev/$PROJECT_ID/$REPO_NAME/$REF_NAME:latest
+substitutions:
+  _REGION: europe-west4
+options:
+  logging: CLOUD_LOGGING_ONLY
