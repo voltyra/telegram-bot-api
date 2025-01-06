@@ -12,7 +12,6 @@ steps:
   - id: Build New Image
     name: gcr.io/cloud-builders/docker
     args:
-      - -c
       - build
       - -t
       - europe-docker.pkg.dev/$PROJECT_ID/$REPO_NAME/$REF_NAME:latest
